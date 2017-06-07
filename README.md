@@ -4,7 +4,7 @@ NOTE: Mandrill has been sold to MailChimp so the example below requires modifica
 Here’s a simple form that will take in a postal code, and do a look up on the associated Member of Parliament’s (MP) email and name. There are a couple of details and code samples below.
 
 ## Angular
-I use a filter to lookup the postal code and find the associated MP name which is then displayed using Angular {{}} expression. I’m using some crude validation to validate mandatory fields and the email address format. View code [here](controllers.js)
+I use a filter to lookup the postal code and find the associated MP name which is then displayed using Angular {{}} expression. I’m using some crude validation to validate mandatory fields and the email address format. View code [here](https://github.com/rakkatak/selectMP/blob/master/js/controllers.js)
 
 ## Mandrill
-In order to send out emails I discovered the Mandrill email API which I can call via an ajax call which let’s you send up to 10K emails per month for free. View code [here](selectMpForm.html)
+In order to send out emails I discovered the Mandrill email API which I can call via an ajax call which let’s you send up to 10K emails per month for free. View code [here](https://github.com/rakkatak/selectMP/blob/master/partials/selectMpForm.html)
