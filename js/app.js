@@ -5,8 +5,7 @@
 var findMPApp = angular.module('findMPApp', [
   'ngRoute',
   'findMPControllers',
-  'mpFilters',
-  'angular-mandrill'
+  'mpFilters'
 ]);
 
 findMPApp.config(['$routeProvider',
@@ -20,7 +19,3 @@ findMPApp.config(['$routeProvider',
         redirectTo: '/findMP'
       });
   }]);
-
-findMPApp.config(function(MandrillProvider) {
-  MandrillProvider.setApiKey('-VDS6QsLxHBa18rXW8VHIg');
-});
